@@ -11,7 +11,7 @@ In this repo, the **bootstrap** branch contains those code/files, which were use
 
 ## Development Journey:
 - I learned about different utility classes related to Typography, Layout, Flexbox, Spacing, Sizing, Backgrounds, Borders and Transitions in Tailwind CSS framework and used them to engineer this webpage. 
-- I made this webpage responsize, by using Tailwind's `breakpoints prefix`.
+- I made this webpage responsive, by using Tailwind's `breakpoints prefix`.
 - I have implemented modifiers, like `:hover` with the utility classes, to make the user experience better.
 - I have also learnt about customizing the default Tailwind CSS's styling, by using
 `tailwind.config.js`, and directives like, `@layer` & `@apply`, in our own custom CSS file. 
