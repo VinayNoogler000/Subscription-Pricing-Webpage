@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    @apply basis-3/5 mb-4 mr-4 border-[0.1rem] border-gray-300 rounded-md text-center;
+}
+
+.card-title {
+    @apply bg-gray-100 mx-4 mb-3 p-2 border-b-[0.1rem] border-gray-300 text-2xl font-semibold;
+}
+
+.card .body .heading {
+    @apply text-4xl font-semibold mb-2;
+}
+
+.card .body .description {
+    @apply mb-4;
+}
+
+.card .btn {
+    @apply p-2 mb-4  border-[0.1rem] border-blue-500 rounded-lg hover:bg-blue-600 hover:transition duration-300 ease-in-out;
+}
+
+.card .outlined {
+    @apply text-blue-500 hover:text-white;
+}
+
+.card .filled {
+    @apply bg-blue-500 text-white;
+}
